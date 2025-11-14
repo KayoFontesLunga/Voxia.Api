@@ -1,0 +1,6 @@
+@Voxia.Api_HostAddress = http://localhost:5186
+
+GET {{Voxia.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
