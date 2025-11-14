@@ -34,12 +34,8 @@
   <ItemGroup>
     <Folder Include="Assets\system\images\" />
     <Folder Include="Assets\system\audio\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="DTOs\Auth\" />
     <Folder Include="Infrastructure\Data\Configurations\" />
     <Folder Include="Repositories\" />
-    <Folder Include="Services\Auth\" />
-    <Folder Include="Utils\Middlewares\" />
   </ItemGroup>
 
 </Project>
