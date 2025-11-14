@@ -12,16 +12,22 @@ public class UserController : ControllerBase
     [HttpGet("me")]
     public IActionResult GetMe()
     {
-        var userId = User.GetUserId();
-        var email = User.GetEmail();
-
-        if (userId == Guid.Empty)
-            return Unauthorized(new { message = "Token não contém UserId válido." });
-
-        return Ok(new
+        try
         {
-            userId,
-            email
-        });
+            var userId = User.GetUserId();
+            var email = User.GetEmail();
+
+            if (userId == Guid.Empty)
+                return Unauthorized(new { message = "Token não contém UserId válido." });
+
+            return Ok(new
+            {
+                userId,
+                email
+            });
+        }catch(Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
 }
