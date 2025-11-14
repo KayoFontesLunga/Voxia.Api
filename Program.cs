@@ -5,6 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using VoxiasApp.Infrastructure.Data;
+using VoxiasApp.Services.Auth;
 
 var builder = WebApplication.CreateBuilder(args);
 

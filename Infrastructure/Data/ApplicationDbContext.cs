@@ -41,8 +41,8 @@ public class ApplicationDbContext : DbContext
             {
                 Id = macaId,
                 Nome = "Maçã",
-                ImagemUrl = "/Assets/System/Images/maca.png",
-                AudioUrl = "/Assets/System/Audio/maca.mp3",
+                ImagemUrl = "/assets/system/images/maca.png",
+                AudioUrl = "/assets/system/audio/maca.mp3",
                 CategoriaHomeId = frutasId
             },
             new CardHome
