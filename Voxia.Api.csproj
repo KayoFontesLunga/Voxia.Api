@@ -35,7 +35,6 @@
     <Folder Include="Assets\system\images\" />
     <Folder Include="Assets\system\audio\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Domain\Entities\" />
     <Folder Include="DTOs\Auth\" />
     <Folder Include="Infrastructure\Data\Configurations\" />
     <Folder Include="Repositories\" />
