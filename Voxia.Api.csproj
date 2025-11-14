@@ -34,7 +34,6 @@
   <ItemGroup>
     <Folder Include="Assets\system\images\" />
     <Folder Include="Assets\system\audio\" />
-    <Folder Include="Infrastructure\Data\Configurations\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
 
